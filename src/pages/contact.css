@@ -1,0 +1,52 @@
+/* Set margin and padding to 0 for the whole page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .image-section {
+    flex: 1;
+    background:blue; /* Add your image URL */
+    background-size: cover;
+  }
+  
+  .contact-section {
+    flex: 1;
+    padding: 50px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .rounded-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
